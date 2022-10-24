@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    padding: 13px 0;
+    margin-bottom: 30px;
+}
+
+.brand{
+    font-weight: 750;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: steelblue;
+}
+
+.input{
+    padding:7px 17px;
+    border: none;
+    transition: .5s ease;
+    border-radius: 15px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.input:focus{
+   outline: none;
+}
+
+
+
+.buttonSearch{
+    margin-left: 12px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background-color: steelblue;
+    padding: 6px 10px;
+    transition: .5s ease-out;
+}
+
+.buttonSearch:hover{
+    border: 1px solid steelblue;
+    color: steelblue;
+    background-color: #fff;
+    transform: scale(1.06);
+}
